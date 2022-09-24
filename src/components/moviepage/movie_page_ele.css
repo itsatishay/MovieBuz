@@ -1,0 +1,96 @@
+.page {
+    background: #000;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.text {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rowContainer {
+    direction: ltr;
+    padding: 40px;
+}
+
+.rowStart {
+    flex-direction: row;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+}
+
+.circleContainer{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+}
+
+.backIcon{
+    height: 30px;
+    width: 30px;
+    opacity: 0.8;
+}
+
+.ProductImg{
+  height: 450px;
+  width: 280px;
+  margin-left: 15%;
+}
+
+.bodyText{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 20px; 
+    margin-left: 10px;
+    margin-right: 8.0rem;
+}
+
+.showTimingsContainer{
+    border-radius: 10%;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+
+.showTimingsContainer:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #e31837;
+}
+
+.p1{
+    color: #fff;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 40px; 
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.timingsRow{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}

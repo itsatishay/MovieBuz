@@ -1,0 +1,9 @@
+{
+    "env":{
+        "MONGO_USER": "justatest",
+        "MONGO_PASSWORD": "movie_buz",
+        "MONGO_DB": "MovieBuz"
+    }
+}
+
+// replace with your mongoDB credentials

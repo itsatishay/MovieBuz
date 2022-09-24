@@ -1,0 +1,26 @@
+.row {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    display: flex;
+}
+
+.submit {
+    border-radius: 10%;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: aqua;
+}
